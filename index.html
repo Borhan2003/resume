@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Portfolio Website</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="static/image.png" alt="logo" width="50" height="50">
+                <p>My portfolio</p>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+
+        <section id="hero">
+            <div id="left"></div>
+            <div id="right">
+                <p>I'm a passionate Computer Science and Engineering student with a strong <br>
+                    background in problem-solving, data structures, and algorithms. <br>
+                    Currently, I'm exploring development and diving into the world of machine <br>
+                    learning and AI research.</p>
+                <p>
+                    To build impactful projects, contribute to innovative solutions,
+                    <br>
+                    and growing as a skilled software developer.
+                </p>
+                <button class="_button">Contact Me</button>
+
+            </div>
+
+        </section>
+
+        <hr>
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Md. Borhan Uddin, a Computer Science and Engineering student with a passion for<br>
+                technology and innovation. <br>I love solving complex problems and creating
+                efficient solutions through coding.
+            </p>
+
+        </section>
+        <div id="projects"></div>
+        <h2 style="text-align: center;text-decoration: underline;"> My Projects</h2>
+        <div class="projects">
+
+            <div class="p1">
+                <img src="static/image1.png" alt="" height="200" width="300">
+                <h3>Project management System</h3>
+                <p>A web-based application to manage projects, tasks, and teams effectively.</p>
+                <button class="_button">View Project</button>
+            </div>
+            <div class="p2">
+                <img src="static/image2.png" alt="" height="200" width="300">
+                <h3>Library Management System</h3>
+                <p>A web application to manage library resources, including books, members, and transaction.</p>
+                <button class="_button">View Project</button>
+            </div>
+            <div class="p3">
+                <img src="static/image3.png" alt="" height="200" width="300">
+                <h3>Ecommerce management system</h3>
+                <p>A web application to manage online sales, products, and customer interactions.</p>
+                <button class="_button">View Project</button>
+            </div>
+        </div>
+        <div class="skill-title">My skill</div>
+        <div class="skill">
+            <div>
+                <img src="static/html-5.png" alt="" width="50" height="50">
+                <progress id="file" max="100" value="70">70%</progress>
+
+            </div>
+            <div>
+                <img src="static/css-3.png" alt="" width="50" height="50">
+                <progress id="file" max="100" value="80">80%</progress>
+
+            </div>
+            <div>
+                <img src="static/js.png" alt="" width="50" height="50">
+                <progress id="file" max="100" value="60">60%</progress>
+
+            </div>
+        </div>
+        <section id="contact">
+            <h2 style="text-align: center;">Contact Me</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="_button">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Md. Borhan Uddin.
+                <br> All rights reserved.</p>
+            <div class="social-media">
+
+                <a href="#"><img src="static/facebook.png" alt="Facebook" height="30" width="30"></a>
+                <a href="#"><img src="static/tweeter.png" alt="Twitter" height="30" width="30"></a>
+                <a href="#"><img src="static/linkdin.png" alt="LinkedIn" height="30" width="30"></a>
+
+                <p>Contact:+880 01626629937</p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
